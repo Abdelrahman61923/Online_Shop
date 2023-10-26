@@ -1,0 +1,45 @@
+a {
+    text-decoration: none;
+}
+.header {
+    background-color: white;
+    box-shadow: 0 0 10px #c1baba;
+    height: 70px;
+    width: 100%;
+    padding-top: 6px;
+}
+.header .links {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+.header a:nth-child(1) {
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+}
+.header a:nth-child(2) {
+    font-size: 22px;
+    font-weight: bold;
+}
+.header a:nth-child(3) {
+    font-weight: bold;
+}
+.body {
+    height: calc(100vh - 120px);
+}
+.body .row img {
+    width: 400px;
+    max-width: 100%;
+}
+.body form {
+    border-radius: 20px;
+    padding: 10px 30px 50px;
+    width: 50%;
+}
+@media (max-width: 767px) {
+    .login form {
+        width: 100%;
+    }
+}

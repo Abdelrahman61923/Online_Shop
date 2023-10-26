@@ -1,0 +1,39 @@
+.login h2 {
+    background-image: linear-gradient(to right, rgb(0 107 255 / 68%) 10%,rgb(54 123 219 / 65%) 20%,#ffffff00);
+    display: block;
+    width: fit-content;
+    margin: 25px auto;
+}
+.login form {
+    border-radius: 20px;
+    padding: 10px 30px 50px;
+    width: 50%;
+}
+@media (max-width: 767px) {
+    .login form {
+        width: 100%;
+    }
+}
+.login form .links a {
+    margin-right: 20px;
+    text-decoration: none;
+    background-color: #aaaaaa0f;
+    color: black;
+    padding: 5px 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #c1baba;
+}
+.login form .links a:hover {
+    background-color: #aaaaaa26;
+}
+.error {
+    position: absolute;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    background-color: #ff000078;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

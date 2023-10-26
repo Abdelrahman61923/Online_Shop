@@ -1,0 +1,38 @@
+.box {
+    border: 1px solid black;
+    width: fit-content;
+    margin: auto;
+    padding: 10px 50px;
+    border-radius: 10px;
+}
+
+
+a {
+    text-decoration: none;
+}
+.header {
+    background-color: white;
+    box-shadow: 0 0 10px #c1baba;
+    height: 60px;
+    width: 100%;
+    padding-top: 6px;
+}
+.header .logo {
+    float: left;
+    color: black;
+    margin-top: 9px;
+    font-size: 22px;
+    font-weight: bold;
+}
+.header .main-btn {
+    background-color: red;
+    padding: 10px;
+    border-radius: 10px;
+    float: right;
+    color: white;
+    font-weight: bold;
+}
+.container .row img {
+    width: 400px;
+    max-width: 100%;
+}
