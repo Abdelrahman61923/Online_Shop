@@ -12,7 +12,6 @@ This project implements an e‑commerce website where users can:
 - Browse products on the main store page
 - View product details
 - Add items to cart and manage cart
-- Place basic orders *(if implemented)*
 
 Admins can also **manage products, categories, and orders** through the admin panel.
 
